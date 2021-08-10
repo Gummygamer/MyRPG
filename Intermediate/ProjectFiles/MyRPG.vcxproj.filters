@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyRPG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2DDF85D4-899F-400C-957B-B8678081B45C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyRPG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyRPGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{C1FB9039-8233-46B2-8B3F-855FE15B30CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyRPG">
+      <UniqueIdentifier>{077C7ACB-4C77-4476-B767-8E2F297AD755}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyRPG\MyRPG.Build.cs">
+      <Filter>Source\MyRPG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyRPG\MyRPG.cpp">
+      <Filter>Source\MyRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyRPG\MyRPG.h">
+      <Filter>Source\MyRPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyRPG\MyRPGCharacter.cpp">
+      <Filter>Source\MyRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyRPG\MyRPGCharacter.h">
+      <Filter>Source\MyRPG</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MyRPG\MyRPGGameMode.cpp">
+      <Filter>Source\MyRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyRPG\MyRPGGameMode.h">
+      <Filter>Source\MyRPG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source\MyRPG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hero.h">
+      <Filter>Source\MyRPG</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

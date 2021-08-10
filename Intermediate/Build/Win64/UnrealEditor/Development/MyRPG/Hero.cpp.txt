@@ -1,0 +1,2 @@
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Definitions.MyRPG.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Hero.h

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyRPG",
+			"Path": "C:\\Users\\Darabat\\Documents\\Unreal Projects\\MyRPG\\Source\\MyRPG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyRPGEditor",
+			"Path": "C:\\Users\\Darabat\\Documents\\Unreal Projects\\MyRPG\\Source\\MyRPGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
