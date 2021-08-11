@@ -8,7 +8,10 @@ C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\Unreal
 C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\MyRPGCharacter.h
 C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Hero.h
 C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Sword.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Equipment.h
 C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Inc\MyRPG\Sword.generated.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Shield.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Inc\MyRPG\Shield.generated.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\CharacterMovementReplication.generated.h

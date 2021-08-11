@@ -115,10 +115,17 @@ void AMyRPGCharacter::BeginPlay()
 
 	ASword* sw;
 
+	AShield* shld;
+
 	FAttachmentTransformRules rules = FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true);
 
 	sw = GetWorld()->SpawnActor<ASword>(sword, spawnParams);
 	sw->AttachToComponent(GetMesh(), rules, socket);
+
+	socket = TEXT("L_WristSocket");
+
+	shld = GetWorld()->SpawnActor<AShield>(shield, spawnParams);
+	shld->AttachToComponent(GetMesh(), rules, socket);
 }
 
 void AMyRPGCharacter::TurnAtRate(float Rate)

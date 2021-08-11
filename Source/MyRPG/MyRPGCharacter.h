@@ -4,6 +4,7 @@
 
 #include "Hero.h"
 #include "Sword.h"
+#include "Shield.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -26,6 +27,9 @@ class AMyRPGCharacter : public ACharacter
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AActor> sword;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AActor> shield;
 public:
 	AMyRPGCharacter();
 

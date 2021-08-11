@@ -1,0 +1,6 @@
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Definitions.MyRPG.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG/Shield.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Source\MyRPG\Equipment.h
+C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Inc\MyRPG\Shield.generated.h

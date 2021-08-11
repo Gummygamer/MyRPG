@@ -4,12 +4,20 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+
+#include "Equipment.h"
+
 #include "Sword.generated.h"
+
+#define ATKBOOST 10
 
 UCLASS()
 class MYRPG_API ASword : public AActor
 {
 	GENERATED_BODY()
+
+private:
+	Equipment* equip;
 	
 public:	
 	// Sets default values for this actor's properties

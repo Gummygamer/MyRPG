@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYRPG_Sword_generated_h
 
-#define MyRPG_Source_MyRPG_Sword_h_12_SPARSE_DATA
-#define MyRPG_Source_MyRPG_Sword_h_12_RPC_WRAPPERS
-#define MyRPG_Source_MyRPG_Sword_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define MyRPG_Source_MyRPG_Sword_h_12_INCLASS_NO_PURE_DECLS \
+#define MyRPG_Source_MyRPG_Sword_h_17_SPARSE_DATA
+#define MyRPG_Source_MyRPG_Sword_h_17_RPC_WRAPPERS
+#define MyRPG_Source_MyRPG_Sword_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define MyRPG_Source_MyRPG_Sword_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASword(); \
 	friend struct Z_Construct_UClass_ASword_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ASword)
 
 
-#define MyRPG_Source_MyRPG_Sword_h_12_INCLASS \
+#define MyRPG_Source_MyRPG_Sword_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesASword(); \
 	friend struct Z_Construct_UClass_ASword_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ASword)
 
 
-#define MyRPG_Source_MyRPG_Sword_h_12_STANDARD_CONSTRUCTORS \
+#define MyRPG_Source_MyRPG_Sword_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASword(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASword) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define MyRPG_Source_MyRPG_Sword_h_12_ENHANCED_CONSTRUCTORS \
+#define MyRPG_Source_MyRPG_Sword_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASword(ASword&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASword)
 
 
-#define MyRPG_Source_MyRPG_Sword_h_12_PRIVATE_PROPERTY_OFFSET
-#define MyRPG_Source_MyRPG_Sword_h_9_PROLOG
-#define MyRPG_Source_MyRPG_Sword_h_12_GENERATED_BODY_LEGACY \
+#define MyRPG_Source_MyRPG_Sword_h_17_PRIVATE_PROPERTY_OFFSET
+#define MyRPG_Source_MyRPG_Sword_h_14_PROLOG
+#define MyRPG_Source_MyRPG_Sword_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyRPG_Source_MyRPG_Sword_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyRPG_Source_MyRPG_Sword_h_12_SPARSE_DATA \
-	MyRPG_Source_MyRPG_Sword_h_12_RPC_WRAPPERS \
-	MyRPG_Source_MyRPG_Sword_h_12_INCLASS \
-	MyRPG_Source_MyRPG_Sword_h_12_STANDARD_CONSTRUCTORS \
+	MyRPG_Source_MyRPG_Sword_h_17_PRIVATE_PROPERTY_OFFSET \
+	MyRPG_Source_MyRPG_Sword_h_17_SPARSE_DATA \
+	MyRPG_Source_MyRPG_Sword_h_17_RPC_WRAPPERS \
+	MyRPG_Source_MyRPG_Sword_h_17_INCLASS \
+	MyRPG_Source_MyRPG_Sword_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define MyRPG_Source_MyRPG_Sword_h_12_GENERATED_BODY \
+#define MyRPG_Source_MyRPG_Sword_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	MyRPG_Source_MyRPG_Sword_h_12_PRIVATE_PROPERTY_OFFSET \
-	MyRPG_Source_MyRPG_Sword_h_12_SPARSE_DATA \
-	MyRPG_Source_MyRPG_Sword_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	MyRPG_Source_MyRPG_Sword_h_12_INCLASS_NO_PURE_DECLS \
-	MyRPG_Source_MyRPG_Sword_h_12_ENHANCED_CONSTRUCTORS \
+	MyRPG_Source_MyRPG_Sword_h_17_PRIVATE_PROPERTY_OFFSET \
+	MyRPG_Source_MyRPG_Sword_h_17_SPARSE_DATA \
+	MyRPG_Source_MyRPG_Sword_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	MyRPG_Source_MyRPG_Sword_h_17_INCLASS_NO_PURE_DECLS \
+	MyRPG_Source_MyRPG_Sword_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
