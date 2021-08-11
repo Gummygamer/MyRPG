@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MyRPG.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2DDF85D4-899F-400C-957B-B8678081B45C}</UniqueIdentifier>
+      <UniqueIdentifier>{AB1B1DBD-877A-47B4-B74C-00F712DBA487}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MyRPG.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\MyRPGEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C1FB9039-8233-46B2-8B3F-855FE15B30CF}</UniqueIdentifier>
+      <UniqueIdentifier>{23FA85AF-31F7-4831-91D9-ECC16F5E2C11}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +32,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MyRPG">
-      <UniqueIdentifier>{077C7ACB-4C77-4476-B767-8E2F297AD755}</UniqueIdentifier>
+      <UniqueIdentifier>{644837EB-435E-4B19-810D-C371CDE220DA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyRPG\Hero.cpp">
+      <Filter>Source\MyRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyRPG\Hero.h">
+      <Filter>Source\MyRPG</Filter>
+    </ClInclude>
     <None Include="..\..\Source\MyRPG\MyRPG.Build.cs">
       <Filter>Source\MyRPG</Filter>
     </None>
@@ -53,14 +61,10 @@
     <ClInclude Include="..\..\Source\MyRPG\MyRPGGameMode.h">
       <Filter>Source\MyRPG</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Hero.cpp">
+    <ClCompile Include="..\..\Source\MyRPG\Sword.cpp">
       <Filter>Source\MyRPG</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Hero.h">
+    <ClInclude Include="..\..\Source\MyRPG\Sword.h">
       <Filter>Source\MyRPG</Filter>
     </ClInclude>
   </ItemGroup>

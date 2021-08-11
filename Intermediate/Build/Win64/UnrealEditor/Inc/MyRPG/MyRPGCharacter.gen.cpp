@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeMyRPGCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_MyRPG();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void AMyRPGCharacter::StaticRegisterNativesAMyRPGCharacter()
 	{
@@ -41,6 +43,10 @@ void EmptyLinkFunctionForGeneratedCodeMyRPGCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_sword_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_sword;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
@@ -87,6 +93,13 @@ void EmptyLinkFunctionForGeneratedCodeMyRPGCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyRPGCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_sword_MetaData[] = {
+		{ "Category", "MyRPGCharacter" },
+		{ "ModuleRelativePath", "MyRPGCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_sword = { "sword", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyRPGCharacter, sword), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_sword_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_sword_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -107,6 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeMyRPGCharacter() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyRPGCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_FollowCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_sword,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_BaseTurnRate,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyRPGCharacter_Statics::NewProp_BaseLookUpRate,
 	};
@@ -137,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeMyRPGCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyRPGCharacter, 750136616);
+	IMPLEMENT_CLASS(AMyRPGCharacter, 575141026);
 	template<> MYRPG_API UClass* StaticClass<AMyRPGCharacter>()
 	{
 		return AMyRPGCharacter::StaticClass();

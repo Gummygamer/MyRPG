@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Hero.h"
+#include "Sword.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -22,6 +23,9 @@ class AMyRPGCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 
 	Hero* hero;
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AActor> sword;
 public:
 	AMyRPGCharacter();
 
@@ -61,6 +65,8 @@ protected:
 
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
+	virtual void BeginPlay() override;
 
 protected:
 	// APawn interface

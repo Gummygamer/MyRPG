@@ -105,6 +105,22 @@ void AMyRPGCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Locati
 		StopJumping();
 }
 
+void AMyRPGCharacter::BeginPlay()
+{
+
+	Super::BeginPlay();
+
+	FName socket = TEXT("R_WristSocket");
+	FActorSpawnParameters spawnParams;
+
+	ASword* sw;
+
+	FAttachmentTransformRules rules = FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true);
+
+	sw = GetWorld()->SpawnActor<ASword>(sword, spawnParams);
+	sw->AttachToComponent(GetMesh(), rules, socket);
+}
+
 void AMyRPGCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information

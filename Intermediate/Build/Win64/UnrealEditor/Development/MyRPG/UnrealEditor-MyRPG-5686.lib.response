@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MyRPG-5686.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\MyRPGEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Hero.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPG.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPGCharacter.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPGGameMode.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Sword.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPG.init.gen.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPGCharacter.gen.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\MyRPGGameMode.gen.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Sword.gen.cpp.obj"
+"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\Default.rc2.res"
+/OUT:"C:\Users\Darabat\Documents\Unreal Projects\MyRPG\Intermediate\Build\Win64\UnrealEditor\Development\MyRPG\UnrealEditor-MyRPG-5686.lib"
+/INCLUDE:IMPLEMENT_MODULE_MyRPG
