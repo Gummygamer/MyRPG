@@ -57,6 +57,18 @@ void EmptyLinkFunctionForGeneratedCodeMonsterSpawner() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_maxY_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_maxY;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_minZ_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_minZ;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_maxZ_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_maxZ;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_offset_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_offset;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -113,6 +125,27 @@ void EmptyLinkFunctionForGeneratedCodeMonsterSpawner() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxY = { "maxY", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonsterSpawner, maxY), METADATA_PARAMS(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxY_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minZ_MetaData[] = {
+		{ "Category", "MonsterSpawner" },
+		{ "ModuleRelativePath", "MonsterSpawner.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minZ = { "minZ", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonsterSpawner, minZ), METADATA_PARAMS(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minZ_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxZ_MetaData[] = {
+		{ "Category", "MonsterSpawner" },
+		{ "ModuleRelativePath", "MonsterSpawner.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxZ = { "maxZ", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonsterSpawner, maxZ), METADATA_PARAMS(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxZ_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxZ_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_offset_MetaData[] = {
+		{ "Category", "MonsterSpawner" },
+		{ "ModuleRelativePath", "MonsterSpawner.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_offset = { "offset", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMonsterSpawner, offset), METADATA_PARAMS(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_offset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_offset_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMonsterSpawner_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_monster,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_amount,
@@ -120,6 +153,9 @@ void EmptyLinkFunctionForGeneratedCodeMonsterSpawner() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxX,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minY,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxY,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_minZ,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_maxZ,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMonsterSpawner_Statics::NewProp_offset,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMonsterSpawner_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMonsterSpawner>::IsAbstract,
@@ -148,7 +184,7 @@ void EmptyLinkFunctionForGeneratedCodeMonsterSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMonsterSpawner, 2544938085);
+	IMPLEMENT_CLASS(AMonsterSpawner, 3920507711);
 	template<> MYRPG_API UClass* StaticClass<AMonsterSpawner>()
 	{
 		return AMonsterSpawner::StaticClass();

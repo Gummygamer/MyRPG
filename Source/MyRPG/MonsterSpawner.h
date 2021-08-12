@@ -24,6 +24,12 @@ class MYRPG_API AMonsterSpawner : public AActor
 		float minY;
 	UPROPERTY(EditAnywhere)
 		float maxY;
+	UPROPERTY(EditAnywhere)
+		float minZ;
+	UPROPERTY(EditAnywhere)
+		float maxZ;
+	UPROPERTY(EditAnywhere)
+		float offset;
 
 	
 public:	

@@ -64,7 +64,10 @@ public: \
 	FORCEINLINE static uint32 __PPO__minX() { return STRUCT_OFFSET(AMonsterSpawner, minX); } \
 	FORCEINLINE static uint32 __PPO__maxX() { return STRUCT_OFFSET(AMonsterSpawner, maxX); } \
 	FORCEINLINE static uint32 __PPO__minY() { return STRUCT_OFFSET(AMonsterSpawner, minY); } \
-	FORCEINLINE static uint32 __PPO__maxY() { return STRUCT_OFFSET(AMonsterSpawner, maxY); }
+	FORCEINLINE static uint32 __PPO__maxY() { return STRUCT_OFFSET(AMonsterSpawner, maxY); } \
+	FORCEINLINE static uint32 __PPO__minZ() { return STRUCT_OFFSET(AMonsterSpawner, minZ); } \
+	FORCEINLINE static uint32 __PPO__maxZ() { return STRUCT_OFFSET(AMonsterSpawner, maxZ); } \
+	FORCEINLINE static uint32 __PPO__offset() { return STRUCT_OFFSET(AMonsterSpawner, offset); }
 
 
 #define MyRPG_Source_MyRPG_MonsterSpawner_h_10_PROLOG
